@@ -1,0 +1,50 @@
+.card {
+  position: relative;
+  width: 175px;
+  font-size: 0.75rem;
+  line-height: 14px;
+
+  &__image {
+    border-radius: 9px;
+  }
+
+  &__status {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 2px;
+  }
+
+  &__review {
+    margin-block: 8px;
+    display: flex;
+    align-items: center;
+    
+    &--star {
+      height: 14px;
+    }
+
+    &--dot {
+      display: flex;
+    }
+
+    &--rating {
+      padding-left: 4px;
+    }
+
+    &--count {
+      padding-left: 2px;
+      color: #918e9b;
+    }
+  }
+}
+
+.gray {
+  color: #918e9b;
+}
+
+.bold{
+  font-weight: bold;
+}

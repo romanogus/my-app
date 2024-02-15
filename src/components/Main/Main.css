@@ -1,0 +1,25 @@
+.main__title{
+    color: #FFFFFF;
+    font-size: 3.2em;
+    letter-spacing: -0.05em;
+    margin: 57px 27px 0;
+}
+
+.main__list{
+    margin: 51px 30px;
+}
+
+.main__list > li{
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.main__list > li:first-of-type{
+    padding-top: 0;
+}
+
+.main__list > li::marker{
+    color: #61DAFB;
+    font-size: 2em;
+}
