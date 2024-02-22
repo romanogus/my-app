@@ -1,0 +1,44 @@
+.meme {
+  display: grid;
+  grid-template-columns: 40px 40px / 1fr 1fr;
+  gap: 20px;
+  grid-template-areas: ". .";
+  &__top-text,
+  &__bottom-text {
+    display: flex;
+    flex-direction: column;
+
+    &__label {
+      margin-bottom: 3.27px;
+      font-size: 0.875rem;
+      color: #4b5563;
+      font-weight: 500;
+    }
+
+    &__input {
+      padding: 7px 10px;
+      border: 0.8px solid #d1d5db;
+      border-radius: 5px;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      color: #6b7280;
+    }
+  }
+
+  &__new-image-button {
+    grid-column: 1 / -1;
+    background: linear-gradient(90deg, #672280 0%, #a626d3 100%);
+    color: #fff;
+    letter-spacing: -0.10em;
+  }
+
+  &__image {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+
+    img{
+      max-width: 100%;
+    }
+  }
+}

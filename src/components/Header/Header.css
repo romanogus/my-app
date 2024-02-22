@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background: linear-gradient(90deg, #672280 0%, #a626d3 100%);
+  padding: 20px 29px;
+  display: flex;
+  height: 65px;
+  width: 100vw;
+}
+
+.header__logo {
+  max-width: 100px;
+}
+
+.header__title {
+  color: #ffffff;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.1em;
+  margin: 0 0 0 7px;
+}
+
+.header__subtitle {
+  color: #ffffff;
+  font-family: Inter, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  margin-left: auto;
+  margin-block: 0;
+}
